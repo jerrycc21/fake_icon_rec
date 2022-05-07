@@ -25,7 +25,7 @@ python download_data.py
 The image names corresponding to the training and testing sets are stored in `./data/train_files.txt`, `./data/train_real_fake_files.txt`, and `/data/test_files.txt` respectively.
 
 #### Training
-Train the model on the CPU, and the model parameters are stored in the checkpoint.
+Train the model on the CPU, and the model parameters are stored in the `./checkpoints` folder.
 ```
 python train.py --epochs 50 --batch-size 64 --lr 0.001 --dev cpu --dump-dir ./checkpoints
 ```
