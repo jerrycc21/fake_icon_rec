@@ -46,6 +46,6 @@ python test.py --checkpoint checkpoints/fake_icon_res18_040.pth --save-file test
 ```
 
 #### Acknowledgement
-Thanks to [x2y2](x2y2.io) for the data support!
+Thanks to [x2y2](https://x2y2.io) for the data support!
 
 
