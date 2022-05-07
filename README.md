@@ -42,7 +42,7 @@ python cal_acc.py --gt ./data/test_files.txt --pred ./test_results.txt
 
 Test on a single image
 ```
-python test.py --checkpoint checkpoints/fake_icon_res18_040.pth --save-file test_results.txt --dev cpu
+python test.py --checkpoint checkpoints/fake_icon_model.pth --image-path test.jpg --dev cpu
 ```
 
 #### Acknowledgement
