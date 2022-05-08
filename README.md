@@ -28,7 +28,7 @@ The image names corresponding to the training and testing sets are stored in `./
 
 We provide pretrained model parameters that you can test on a single image.
 ```
-python test.py --checkpoint checkpoints/fake_icon_model.pth --image-path test.jpg --dev cpu
+python test_single_image.py --checkpoint checkpoints/fake_icon_model.pth --image-path test.jpg --dev cpu
 ```
 
 #### Training
